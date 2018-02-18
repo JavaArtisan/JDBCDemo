@@ -10,3 +10,6 @@ public class DbSingleton {
 	
 	private Connection conn = null;
 	
+	private DbSingleton () {
+		try {
+			DriverManager.
