@@ -14,4 +14,9 @@ public class DbSingleton {
 		try {
 			DriverManager.registerDriver(new org.apache.derby.jdbc.EmbeddedDriver());			
 		} catch (SQLException e) {
-			e.printStackTr
+			e.printStackTrace();
+		}
+	}
+	
+	public static DbSingleton getInstance() {
+		if(instance 
