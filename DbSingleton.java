@@ -27,4 +27,7 @@ public class DbSingleton {
 			}
 		}
 		
+		return instance;
+	}
 	
+	public Connection getConnection() 
