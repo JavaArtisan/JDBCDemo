@@ -30,4 +30,5 @@ public class DbSingleton {
 		return instance;
 	}
 	
-	public Connection getConnection() 
+	public Connection getConnection() throws SQLException {
+		if(conn == null || conn.isClosed()) {
