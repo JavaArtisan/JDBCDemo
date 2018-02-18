@@ -19,4 +19,6 @@ public class DbSingleton {
 	}
 	
 	public static DbSingleton getInstance() {
-		if(instance 
+		if(instance == null) {
+			synchronized(DbSingleton.class) {
+				if (instance == n
