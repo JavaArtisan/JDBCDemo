@@ -12,4 +12,4 @@ public class DbSingleton {
 	
 	private DbSingleton () {
 		try {
-			DriverManager.
+			DriverManager.registerDriver(new org.apache.derby.jdbc.EmbeddedDriver()
