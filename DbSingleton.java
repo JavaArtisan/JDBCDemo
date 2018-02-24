@@ -32,3 +32,5 @@ public class DbSingleton {
 	
 	public Connection getConnection() throws SQLException {
 		if(conn == null || conn.isClosed()) {
+			synchronized (DbSingleton.class) {
+				if(conn == n
