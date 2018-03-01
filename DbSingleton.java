@@ -35,4 +35,4 @@ public class DbSingleton {
 			synchronized (DbSingleton.class) {
 				if(conn == null || conn.isClosed()) {
 					try {
-						Str
+						String dbUrl = "jdbc:derby:memory:codejava/webdb;crea
