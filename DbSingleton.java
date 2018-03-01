@@ -35,4 +35,6 @@ public class DbSingleton {
 			synchronized (DbSingleton.class) {
 				if(conn == null || conn.isClosed()) {
 					try {
-						String dbUrl = "jdbc:derby:memory:codejava/webdb;crea
+						String dbUrl = "jdbc:derby:memory:codejava/webdb;create=true";
+						
+						conn = DriverManager.getConnection(dbU
