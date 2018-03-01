@@ -37,4 +37,6 @@ public class DbSingleton {
 					try {
 						String dbUrl = "jdbc:derby:memory:codejava/webdb;create=true";
 						
-						conn = DriverManager.getConnection(dbU
+						conn = DriverManager.getConnection(dbUrl);
+					} catch (SQLException e) {
+						e
