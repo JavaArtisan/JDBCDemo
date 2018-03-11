@@ -39,4 +39,11 @@ public class DbSingleton {
 						
 						conn = DriverManager.getConnection(dbUrl);
 					} catch (SQLException e) {
-						e
+						e.printStackTrace();
+					}
+				}
+			}
+		}
+		
+		return conn;
+	
