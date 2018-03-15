@@ -14,4 +14,6 @@ public class JdbcFacade {
 		instance = DbSingleton.getInstance();
 	}
 	
-	public int cre
+	public int createTable() {
+		int count = 0;
+		tr
