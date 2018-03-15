@@ -8,4 +8,6 @@ import java.util.List;
 
 public class JdbcFacade {
 
-	DbSin
+	DbSingleton instance = null;
+	
+	public JdbcFacade() 
