@@ -16,4 +16,6 @@ public class JdbcFacade {
 	
 	public int createTable() {
 		int count = 0;
-		tr
+		try {
+			Connection conn = instance.getConnection();
+			St
