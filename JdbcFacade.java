@@ -10,4 +10,8 @@ public class JdbcFacade {
 
 	DbSingleton instance = null;
 	
-	public JdbcFacade() 
+	public JdbcFacade() {
+		instance = DbSingleton.getInstance();
+	}
+	
+	public int cre
