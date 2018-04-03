@@ -18,4 +18,5 @@ public class JdbcFacade {
 		int count = 0;
 		try {
 			Connection conn = instance.getConnection();
-			St
+			Statement sta = conn.createStatement();
+			count = s
