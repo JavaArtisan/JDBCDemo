@@ -19,4 +19,4 @@ public class JdbcFacade {
 		try {
 			Connection conn = instance.getConnection();
 			Statement sta = conn.createStatement();
-			count = s
+			count = sta.executeUpdate("CREATE TABLE Address (ID INTEGER, StreetName VA
