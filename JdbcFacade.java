@@ -21,4 +21,6 @@ public class JdbcFacade {
 			Statement sta = conn.createStatement();
 			count = sta.executeUpdate("CREATE TABLE Address (ID INTEGER, StreetName VARCHAR(20), City VARCHAR(20))");
 			sta.close();
-			
+			conn.close();
+		} catch (Exception e) {
+			e.printStac
