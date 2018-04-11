@@ -23,4 +23,9 @@ public class JdbcFacade {
 			sta.close();
 			conn.close();
 		} catch (Exception e) {
-			e.printStac
+			e.printStackTrace();
+		}
+		return count;
+	}
+	
+	public int 
