@@ -28,4 +28,7 @@ public class JdbcFacade {
 		return count;
 	}
 	
-	public int 
+	public int insertIntoTable() {
+		int count = 0;
+		try {
+			Conn
