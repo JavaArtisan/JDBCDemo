@@ -31,4 +31,5 @@ public class JdbcFacade {
 	public int insertIntoTable() {
 		int count = 0;
 		try {
-			Conn
+			Connection conn = instance.getConnection();
+			Statemen
