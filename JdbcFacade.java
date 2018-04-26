@@ -32,4 +32,5 @@ public class JdbcFacade {
 		int count = 0;
 		try {
 			Connection conn = instance.getConnection();
-			Statemen
+			Statement sta = conn.createStatement();
+			count = sta.executeUpdate(
