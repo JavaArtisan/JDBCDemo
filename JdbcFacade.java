@@ -33,4 +33,6 @@ public class JdbcFacade {
 		try {
 			Connection conn = instance.getConnection();
 			Statement sta = conn.createStatement();
-			count = sta.executeUpdate("INSERT INTO Address (ID, StreetName, City) values (1, '1234 
+			count = sta.executeUpdate("INSERT INTO Address (ID, StreetName, City) values (1, '1234 Some street', 'Layton')");
+			sta.close();
+			co
