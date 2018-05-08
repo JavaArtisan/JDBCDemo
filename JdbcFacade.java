@@ -37,4 +37,9 @@ public class JdbcFacade {
 			sta.close();
 			conn.close();
 		} catch (Exception e) {
-			e.pr
+			e.printStackTrace();
+		}
+		return count;
+	}
+	
+	publi
