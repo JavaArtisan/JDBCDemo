@@ -43,4 +43,7 @@ public class JdbcFacade {
 	}
 	
 	public List<Address> getAddresses() {
-		List<Add
+		List<Address> addresses = new ArrayList<>();
+		
+		try {
+			Connec
