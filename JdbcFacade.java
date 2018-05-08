@@ -42,4 +42,5 @@ public class JdbcFacade {
 		return count;
 	}
 	
-	publi
+	public List<Address> getAddresses() {
+		List<Add
