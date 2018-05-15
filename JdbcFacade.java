@@ -46,4 +46,5 @@ public class JdbcFacade {
 		List<Address> addresses = new ArrayList<>();
 		
 		try {
-			Connec
+			Connection conn = instance.getConnection();
+			Statem
