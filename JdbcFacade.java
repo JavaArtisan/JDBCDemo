@@ -47,4 +47,5 @@ public class JdbcFacade {
 		
 		try {
 			Connection conn = instance.getConnection();
-			Statem
+			Statement sta = conn.createStatement();
+			ResultSet rs = 
