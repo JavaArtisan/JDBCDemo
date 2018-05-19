@@ -48,4 +48,6 @@ public class JdbcFacade {
 		try {
 			Connection conn = instance.getConnection();
 			Statement sta = conn.createStatement();
-			ResultSet rs = 
+			ResultSet rs = sta.executeQuery("SELECT * FROM Address");
+			
+			w
