@@ -50,4 +50,5 @@ public class JdbcFacade {
 			Statement sta = conn.createStatement();
 			ResultSet rs = sta.executeQuery("SELECT * FROM Address");
 			
-			w
+			while(rs.next()) {
+				System.out.println(rs.getStri
