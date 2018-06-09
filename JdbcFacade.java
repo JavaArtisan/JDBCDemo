@@ -51,4 +51,4 @@ public class JdbcFacade {
 			ResultSet rs = sta.executeQuery("SELECT * FROM Address");
 			
 			while(rs.next()) {
-				System.out.println(rs.getStri
+				System.out.println(rs.getString(1) + " " + rs.getString(2) + " " + rs.getStr
