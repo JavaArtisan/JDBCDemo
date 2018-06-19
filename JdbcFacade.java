@@ -55,4 +55,6 @@ public class JdbcFacade {
 				Address address = new Address();
 				address.setId(rs.getString(1));
 				address.setStreetName(rs.getString(2));
-				addre
+				address.setCity(rs.getString(3));
+				
+				addresses.
