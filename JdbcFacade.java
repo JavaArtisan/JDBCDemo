@@ -57,4 +57,9 @@ public class JdbcFacade {
 				address.setStreetName(rs.getString(2));
 				address.setCity(rs.getString(3));
 				
-				addresses.
+				addresses.add(address);
+			}
+			
+			rs.close();
+			sta.close();
+			c
