@@ -62,4 +62,6 @@ public class JdbcFacade {
 			
 			rs.close();
 			sta.close();
-			c
+			conn.close();
+		} catch (Exception e) {
+			e.print
