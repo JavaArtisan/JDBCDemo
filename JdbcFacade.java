@@ -64,4 +64,11 @@ public class JdbcFacade {
 			sta.close();
 			conn.close();
 		} catch (Exception e) {
-			e.print
+			e.printStackTrace();
+		}	
+
+		return addresses;
+	}	
+}
+
+class Address 
