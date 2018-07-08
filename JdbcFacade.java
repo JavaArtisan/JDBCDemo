@@ -71,4 +71,7 @@ public class JdbcFacade {
 	}	
 }
 
-class Address 
+class Address {
+	private String id;
+	private String streetName;
+	pr
