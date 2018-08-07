@@ -79,4 +79,7 @@ class Address {
 	public String getId() {
 		return id;
 	}
-	p
+	public void setId(String id) {
+		this.id = id;
+	}
+	public 
