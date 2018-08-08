@@ -82,4 +82,5 @@ class Address {
 	public void setId(String id) {
 		this.id = id;
 	}
-	public 
+	public String getStreetName() {
+		return st
