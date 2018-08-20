@@ -83,4 +83,6 @@ class Address {
 		this.id = id;
 	}
 	public String getStreetName() {
-		return st
+		return streetName;
+	}
+	public void setStreetName(String
