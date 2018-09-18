@@ -91,4 +91,10 @@ class Address {
 	public String getCity() {
 		return city;
 	}
-	public
+	public void setCity(String city) {
+		this.city = city;
+	}
+	
+	
+
+}
